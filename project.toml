@@ -1,0 +1,14 @@
+[project]
+  id = "io.openliberty.sample.daytrader8"
+  name = "DayTrader8 Sample"
+  version = "1.0.0"
+
+[[build.buildpacks]]
+  uri = "docker://gcr.io/paketo-buildpacks/eclipse-openj9:9.1.1"
+[[build.buildpacks]]
+  uri = "docker://gcr.io/paketo-buildpacks/syft:1.4.0"
+[[build.buildpacks]]
+  uri = "docker://gcr.io/paketo-buildpacks/maven:6.0.2"
+[[build.buildpacks]]
+  uri = "docker://gcr.io/paketo-buildpacks/open-liberty:0.2.0"
+
