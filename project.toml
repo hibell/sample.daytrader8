@@ -10,5 +10,5 @@
 [[build.buildpacks]]
   uri = "docker://gcr.io/paketo-buildpacks/maven:6.0.2"
 [[build.buildpacks]]
-  uri = "docker://gcr.io/paketo-buildpacks/open-liberty:0.2.0"
+  uri = "docker://gcr.io/paketo-buildpacks/open-liberty:0.2.1"
 
